@@ -1,4 +1,4 @@
-This is a project made by me and @azh412.
+This is a project made by me and [@azh412](https://github.com/azh412)
 
 `THIS PROJECT IS PURELY SATIRICAL. NO HARM / DEFAMATION IS INTENDED AT ANY PARTIES USING THIS PROGRAM.`
 
