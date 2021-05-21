@@ -2,7 +2,7 @@ from time import sleep
 from random import choice, randint
 import calendar, datetime
 
-# Copyright (c) 2021 Syed Nizami & Azhaan Salam
+# Copyright (c) 2021 Nehan Nizami & Azhaan Salam
 
 emails = [
     "theidiot@dogwater.net", "theidiot@dogwater.com",
@@ -14,11 +14,17 @@ lastNames = [
     "the Teammate Everyone Hates"
 ]
 randomMessage = [
-    "Bob", "Ryan", "noob", "George", "oh wait no", "dont no u", "bruh", "hahahhahahahahahahahahaha"
-    ]
+    "Bob", "Ryan", "noob", "George", "oh wait no", "dont no u", "bruh",
+    "hahahhahahahahahahahahaha"
+]
 latestMessage = [
     f"no u {choice(randomMessage)}", "I am dumb", "I am stupid",
-    f"hello {choice(randomMessage)}", f"{choice(randomMessage)} stupid", "STOP", "STOP I WILL BLOCK U", "STOP I WILL BLOC U", "follow azh412 on GitHub", "This isnt a rickroll --> https://www.youtube.com/watch?v=dQw4w9WgXcQ", "drama hahahhahahahahahahahahaha", "e", "I been watching peppa pig", "u a boomer", "ok", "ok boomer"
+    f"hello {choice(randomMessage)}", f"{choice(randomMessage)} stupid",
+    "STOP", "STOP I WILL BLOCK U", "STOP I WILL BLOC U",
+    "follow azh412 on GitHub",
+    "This isnt a rickroll --> https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "drama hahahhahahahahahahahahaha", "e", "I been watching peppa pig",
+    "u a boomer", "ok", "ok boomer"
 ]
 
 print("Hello, welcome to Hack People.")
@@ -59,13 +65,9 @@ month_name = datetime_object.strftime("%B")
 print(f'Expiration Date: {month_name} {year}')
 sleep(randint(1, 3))
 if year < 2021:
-    print(
-        "this idiot better not buy anything with that piece of garbage"
-    )
+	print("this idiot better not buy anything with that piece of expired garbage")
 if aaa < 5 and year == 2021:
-    print(
-        "this idiot better not buy anything with that piece of garbage"
-    )
+	print("this idiot better not buy anything with that piece of expired garbage")
 sleep(randint(1, 3))
 
 print("Obtaining Latest Messages")
@@ -91,12 +93,12 @@ sleep(randint(1, 3))
 response = input('You seriously believed that? ')
 
 if response == 'yes':
-  print("Wow, how dogwater of you")
+	print("Wow, how dogwater of you")
 elif response == 'no':
-  print("Wow, you're dogwater for lying")
+	print("Wow, you're dogwater for lying")
 else:
-  print("You were supposed to say yes or no -_-")
-  sleep(1)
-  print("Use ur common sense")
+	print("You were supposed to say yes or no -_-")
+	sleep(1)
+	print("Use ur common sense")
 
 print('Goodbye punk')
